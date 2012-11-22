@@ -1,0 +1,8 @@
+50ae5ee8e60b5,127.0.0.1,GET,http://localhost/cbalance/web/app_dev.php/,1353604840,
+50ae5ef5c365e,127.0.0.1,GET,http://localhost/cbalance/web/app_dev.php/_configurator/,1353604853,
+50ae5ef794ba2,127.0.0.1,GET,http://localhost/cbalance/web/app_dev.php/_configurator/step/0,1353604855,
+50ae5f2ca77a5,127.0.0.1,POST,http://localhost/cbalance/web/app_dev.php/_configurator/step/0,1353604908,
+50ae5f31a989a,127.0.0.1,GET,http://localhost/cbalance/web/app_dev.php/_configurator/step/1,1353604913,
+50ae5f35cddf4,127.0.0.1,POST,http://localhost/cbalance/web/app_dev.php/_configurator/step/1,1353604917,
+50ae5f3ad9741,127.0.0.1,GET,http://localhost/cbalance/web/app_dev.php/_configurator/final,1353604922,
+50ae5f43e5cd3,127.0.0.1,GET,http://localhost/cbalance/web/app_dev.php/,1353604931,
