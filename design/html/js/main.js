@@ -20,7 +20,7 @@ setInterval(function(){
     if(i<banners)
     {
         $(banner).hide("slow");
-        $('#banner div:eq('+i+')').show("slow");
+        $('#banner div.span4:eq('+i+')').show("slow");
     }
     else
     {
@@ -28,7 +28,7 @@ setInterval(function(){
         $(banner).hide("slow");
         $('.dial').val(0).trigger('change');
         $('canvas').parent('div').show("fast");
-        $('#banner div:eq('+i+')').show("slow");
+        $('#banner div.span4:eq('+i+')').show("slow");
     }
     i = i+1;
 },5000);

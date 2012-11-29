@@ -147,6 +147,6 @@ canvas{
 }
 .center{
     position: absolute;
-    left: 490px;
+    margin-left: -10px;
     z-index: 99;
 }
