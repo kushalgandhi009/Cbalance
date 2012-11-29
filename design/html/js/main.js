@@ -36,8 +36,12 @@ setInterval(function(){
 $(".dial").knob();
 $('canvas').parent('div').addClass('center');
 
-$.getJSON('rediff_news.php',function(data){
-   $(data).each(function(){
-        $('ul#headlines').append('<li><a href='+this.url+' target="_blank">'+this.title+'</a></li>');
-   });
+$('#myModal').on('show', function (e) {
+    $.getJSON('rediff_news.php',function(data){
+        if (!data) return e.preventDefault(); // stops modal from being shown
+        $('ul#headlines').html('');
+        $(data).each(function(){
+            $('ul#headlines').append('<li><a href='+this.url+' target="_blank">'+this.title+'</a></li>');
+        });
+    });
 });
