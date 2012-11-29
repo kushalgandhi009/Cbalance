@@ -1,23 +1,81 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {
+    font-family: 'DINPro-Regular';
+    src: url("../fonts/dinpro-regular.eot");
+    src: url("../fonts/dinpro-regular.eot?#iefix") format('embedded-opentype'),
+    url("../fonts/dinpro-regular.woff") format('woff'),
+    url("../fonts/dinpro-regular.ttf") format('truetype'),
+    url("../fonts/dinpro-regular.svg#dinpro-regular") format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'geared_slabregular';
+    src: url('../fonts/gearedslab-webfont.eot');
+    src: url('../fonts/gearedslab-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gearedslab-webfont.woff') format('woff'),
+    url('../fonts/gearedslab-webfont.ttf') format('truetype'),
+    url('../fonts/gearedslab-webfont.svg#geared_slabregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'geared_slabthin';
+    src: url('../fonts/gearedslab-light-webfont.eot');
+    src: url('../fonts/gearedslab-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gearedslab-light-webfont.woff') format('woff'),
+    url('../fonts/gearedslab-light-webfont.ttf') format('truetype'),
+    url('../fonts/gearedslab-light-webfont.svg#geared_slabthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'proxima_nova_rgitalic';
+    src: url('../fonts/proximanova-regularitalic-webfont.eot');
+    src: url('../fonts/proximanova-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/proximanova-regularitalic-webfont.woff') format('woff'),
+    url('../fonts/proximanova-regularitalic-webfont.ttf') format('truetype'),
+    url('../fonts/proximanova-regularitalic-webfont.svg#proxima_nova_rgitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../fonts/proximanova-regular-webfont.eot');
+    src: url('../fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/proximanova-regular-webfont.woff') format('woff'),
+    url('../fonts/proximanova-regular-webfont.ttf') format('truetype'),
+    url('../fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body{
     background: url("../img/bg_blue.jpg") 0 0 repeat;
 }
 #main-content{
-    text-transform: uppercase;
     color: #fff;
     text-align: center;
 }
 #main-content h1{
+    text-transform: uppercase;
     font-size: 42px;
+}
+#main-content div{
+    font-family: 'proxima_nova_rgregular';
 }
 
 #start{
+    font-family: 'geared_slabregular';
     border-radius: 10px;
-    padding: 20px;
-    font-size: 30px;
+    padding: 15px;
+    font-size: 32px;
     color: #09A5BE;
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.5);
 }
 #header{
     padding: 20px 0 30px;
@@ -51,3 +109,10 @@ body{
     margin:0;
 }
 
+ul.nav li a{
+    font-family: 'DINPro-Regular';
+}
+#main-content h1{
+    font-family: 'geared_slabregular';
+    font-size: 48px;
+}
