@@ -84,29 +84,30 @@ body{
     position: relative;
     min-height: 350px;
 }
-.circle,.inner-img{
+.inner-img{
     position: absolute;
+    display: inline;
 }
 #banner2,#banner3,#banner4,#banner5,#banner6{
     display: none;
 }
 #banner1 .inner-img{
-    margin:15px 0 0 55px;
+    margin:15px 0 0 10px;
 }
 #banner2 .inner-img{
-    margin:145px 0 0 30px;
+    margin:145px 0 0 0px;
 }
 #banner3 .inner-img{
-    margin:50px 0 0 35px;
+    margin:50px 0 0 0px;
 }
 #banner4 .inner-img{
-    margin:68px 0 0 30px;
+    margin:72px 0 0 0px;
 }
 #banner5 .inner-img{
-    margin:160px 0 0 130px;
+    margin:160px 0 0 92px;
 }
 #banner6 .inner-img{
-    margin:0;
+    margin:0 0 0 -40px;
 }
 
 ul.nav li a{
@@ -136,4 +137,16 @@ ul.nav li a{
     color: #fff;
     text-shadow: none;
     box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.modal-body a{
+    font-family: 'proxima_nova_rgitalic';
+    color: #fff;
+}
+canvas{
+    background:url('../img/circle.png') !important; z-index: 999
+}
+.center{
+    position: absolute;
+    left: 490px;
+    z-index: 99;
 }
