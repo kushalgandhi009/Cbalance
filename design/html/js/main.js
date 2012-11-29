@@ -32,7 +32,12 @@ setInterval(function(){
     }
     i = i+1;
 },5000);
-$(function() {
-    $(".dial").knob();
-    $('canvas').parent('div').addClass('center');
+
+$(".dial").knob();
+$('canvas').parent('div').addClass('center');
+
+$.getJSON('rediff_news.php',function(data){
+   $(data).each(function(){
+        $('ul#headlines').append('<li><a href='+this.url+' target="_blank">'+this.title+'</a></li>');
+   });
 });
